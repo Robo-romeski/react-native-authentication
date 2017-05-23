@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import {
 	StyleSheet,
+	Image,
 } from 'react-native';
 import {
 	Container,
@@ -19,6 +20,9 @@ const styles = StyleSheet.create({
 		alignSelf: 'center',
 		width: 150,
 	},
+	headImg: {
+		alignSelf: 'stretch',
+	},
 });
 
 const Main = (props) => {
@@ -27,9 +31,10 @@ const Main = (props) => {
 		<Container>
 			<View style={styles.container}>
 				<Header>
-					<Title>Welcome</Title>
+					<Title>Welcome to Sandbox</Title>
 				</Header>
 				<View>
+					<Image style={styles.headImg} source={require('./images/sandbox.png')} />
 					<Button
 						style={styles.button}
 						onPress={() => props.navigator.jumpTo(routeStack[1])

@@ -16,6 +16,14 @@
         "createdAt": "2016-11-06T09:42:15.376Z",
         "updatedAt": "2016-11-06T09:42:15.376Z",
         "id": 2
+      },
+      {
+        "firstName": "jerome",
+        "email": "jeromemoore@usa.com",
+        "password": "$2a$10$yOd9FU8fFQBhCpUcF2AnJulEJHkl1BUsp8V.8JE3hVYkwkiG5Jttq",
+        "createdAt": "2017-05-23T13:19:49.468Z",
+        "updatedAt": "2017-05-23T13:19:49.468Z",
+        "id": 3
       }
     ],
     "tokens": [],
@@ -95,9 +103,11 @@
   },
   "counters": {
     "users": {
-      "id": 2
+      "id": 3
     },
-    "tokens": {},
+    "tokens": {
+      "id": 12
+    },
     "clients": {}
   }
 }
